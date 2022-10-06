@@ -1,4 +1,4 @@
-import s from './Dialogs.module.css'
+import s from './dialogs.module.css'
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
 

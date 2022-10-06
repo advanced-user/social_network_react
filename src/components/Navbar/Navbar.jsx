@@ -1,4 +1,4 @@
-import classes from './Navbar.module.css'
+import classes from './navbar.module.css'
 import CustomLink from "../CustomLink";
 
 const Navbar = () => {
@@ -12,6 +12,9 @@ const Navbar = () => {
             </div>
             <div className={classes.item}>
                 <CustomLink to="/news">News</CustomLink>
+            </div>
+            <div className={classes.item}>
+                <CustomLink to="/users">Users</CustomLink>
             </div>
             <div className={classes.item}>
                 Music
